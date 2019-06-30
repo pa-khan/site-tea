@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'GloberBold';
+  src: url('GloberBold.eot?#iefix') format('embedded-opentype'),  url('GloberBold.otf')  format('opentype'),
+	     url('GloberBold.woff') format('woff'), url('GloberBold.ttf')  format('truetype'), url('GloberBold.svg#GloberBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

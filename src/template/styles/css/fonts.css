@@ -1,6 +1,12 @@
 /* Including fonts */
 @font-face {
-  font-family: "";
-  src: url("../../fonts/");
-  font-style: normal;
-  font-weight: 400; }
+  font-family: 'Glober';
+  src: url("../../fonts/GloberRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/GloberRegular.otf") format("opentype"), url("../../fonts/GloberRegular.woff") format("woff"), url("../../fonts/GloberRegular.ttf") format("truetype"), url("../../fonts/GloberRegular.svg#GloberRegular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Glober';
+  src: url("../../fonts/GloberBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/GloberBold.otf") format("opentype"), url("../../fonts/GloberBold.woff") format("woff"), url("../../fonts/GloberBold.ttf") format("truetype"), url("../../fonts/GloberBold.svg#GloberBold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
