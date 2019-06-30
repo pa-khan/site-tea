@@ -202,7 +202,6 @@ input, .btn, .slick-slide, textarea
 	&__text
 		padding-left: 8px
 	&__title
-		font-size: 16px
 		font-weight: 700
 		margin-bottom: 4px
 	&__desc
@@ -350,7 +349,6 @@ input, .btn, .slick-slide, textarea
 		border-radius: 5px
 		background-color: #ffffff
 		font-weight: 700
-		font-size: 16px
 		line-height: 22px
 		padding-top: 4px
 		padding-left: 20px
@@ -455,7 +453,7 @@ input, .btn, .slick-slide, textarea
 				width: 185px
 
 			&__security
-				top: 87px
+				top: 78px
 				right: -150px
 
 			&__counter
@@ -466,6 +464,12 @@ input, .btn, .slick-slide, textarea
 				
 	&_more-padding
 		padding: 25px 35px 50px
+		.form
+			&__input
+				width: 275px
+			&__product
+				right: 120px
+				
 	&_small-product
 		.form
 			&__product
@@ -482,7 +486,6 @@ input, .btn, .slick-slide, textarea
 	&__price
 		margin-bottom: 10px
 	&__counter
-		font-size: 16px
 		text-transform: uppercase
 		color: #707a83
 	&__security
@@ -603,6 +606,7 @@ input, .btn, .slick-slide, textarea
 .about
 	position: relative
 	margin-top: 240px
+	padding-top: 40px
 	background-color: #fffdf5
 	&:before, &:after
 		content: ''
@@ -1147,6 +1151,7 @@ input, .btn, .slick-slide, textarea
 	position: relative
 	background-color: #fff
 	padding-top: 70px
+	padding-bottom: 50px
 	&:before, &:after
 		content: ''
 		position: absolute
@@ -1184,6 +1189,37 @@ input, .btn, .slick-slide, textarea
 			bottom: -110px
 
 
+.sale
+	z-index: 10
+	position: fixed
+	right: 0
+	bottom: 5%
+	height: 80px
+	border-radius: 40px 0 0 40px
+	color: #fff
+	display: flex
+	flex-wrap: wrap
+	align-items: center
+	padding-left: 9px
+	padding-right: 15px
+	background-image: linear-gradient(270deg, #e2bf99 0%, #cd8a73 100%)
+	&__images
+		margin-right: 35px
+		img
+			position: absolute
+			&:nth-of-type(1)
+				position: static
+				width: 78px
+			&:nth-of-type(2)
+				top: -9px
+				left: 44px
+				width: 61px
+	&__text
+		text-shadow: 0 1px 2px rgba(181, 56, 0, 0.37)
+		color: #ffffff
+		font-size: 14px
+		font-weight: 700
+		line-height: 18px
 
 
 .order
