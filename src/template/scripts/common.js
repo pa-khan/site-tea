@@ -21,9 +21,21 @@ $(document).ready(function($) {
 		slidesToScroll: 1,
 		adaptiveHeight: true,
 		appendArrows: reviewsArrows,
+		responsive: [{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 1
+			}
+		}]
 	})
 
 	reviewsList.on('afterChange', function(event, slick, direction){
 	  reviewsCounter.html(direction + 1)
+	});
+
+	$("a[href^='#']").click(function(){
+    var _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"}, 1500);
+    return false;
 	});
 });

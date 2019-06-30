@@ -179,6 +179,9 @@ input {
 input, textarea, button {
   outline: none; }
 
+.main-wrap {
+  overflow-x: hidden; }
+
 /* Form elements */
 .input {
   position: relative; }
@@ -1195,7 +1198,8 @@ input, .btn, .slick-slide, textarea {
       top: 25px;
       left: 21px;
       right: 21px;
-      bottom: 25px; }
+      bottom: 25px;
+      background-size: cover; }
   .certificates__title {
     line-height: 22px;
     text-align: center; }
@@ -1410,6 +1414,7 @@ input, .btn, .slick-slide, textarea {
     color: #d1957b; }
 
 .map {
+  z-index: 1;
   position: relative;
   background-color: #fff;
   padding-top: 70px;
@@ -1497,9 +1502,22 @@ input, .btn, .slick-slide, textarea {
     line-height: 18px; }
 
 .order {
+  position: relative;
   padding-top: 250px;
   padding-bottom: 90px;
   background-color: #e9eef2; }
+  .order:before {
+    display: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -79px;
+    height: 79px;
+    background-image: url("../../img/footer.png"); }
   .order__title {
     margin-bottom: 12px; }
   .order__desc {

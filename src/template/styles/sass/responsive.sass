@@ -1,7 +1,626 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1255px)
 	.case
 		width: 950px
 	
+	body
+		font-size: 12px
+
+	.title
+		font-size: 22px
+		line-height: 24px
+
+	.subtitle
+		font-size: 22px
+		line-height: 24px
+
+	.desc
+		font-size: 16px
+
+
+	.header
+		padding-top: 8px
+
+	.panel
+		&__logo
+			padding-top: 22px
+		&__counter
+			margin-right: 34px
+	.logo
+		&__title
+			font-size: 14px
+			margin-bottom: 2px
+		&__desc
+			font-size: 11px
+
+
+	.hello
+		padding-top: 5px
+		&:after
+			height: 55px
+			bottom: -55px
+		&__wrap
+			&:before
+				top: -90px
+				width: 433px
+				height: 420px
+				left: 50%
+				margin-left: 40px
+				transform: translateX(-50%)
+				background-size: 100% 100%
+		&__title
+			font-size: 26px
+			line-height: 31px
+		&__desc
+			font-size: 16px
+			line-height: 16px
+			max-width: 285px
+			margin-bottom: 45px
+			br
+				display: none
+		&__text
+			margin-bottom: 34px
+
+		&__advantages
+			max-width: 265px
+		&__left
+			width: 290px
+		&__mid
+			top: -100px
+			left: 50%
+			transform: translateX(-50%)
+			width: 400px
+			margin-left: 40px
+		&__images
+
+			img
+				&:nth-of-type(1)
+					width: 400px
+				&:nth-of-type(2)
+					width: 192px
+					left: 55px
+					bottom: -61px
+				&:nth-of-type(3)
+					width: 151px
+					left: 157px
+					bottom: -62px
+				&:nth-of-type(4)
+					width: 86px
+					left: 79px
+					bottom: -62px
+				&:nth-of-type(5)
+					width: 111px
+					left: 172px
+					bottom: -78px
+				&:nth-of-type(6)
+					width: 164px
+					left: 137px
+					bottom: -77px
+
+		&__right
+			width: 205px
+
+		&__form
+			margin-top: 4px
+			margin-bottom: 30px
+		&__orgs
+			img
+				width: auto !important
+				height: 30px
+				margin-left: 26px
+				&:nth-of-type(1)
+					margin-right: 0
+		&__subdesc
+			width: 176px
+			height: 46px
+			font-size: 12px
+			line-height: 12px
+			padding-left: 14px
+			padding-top: 5px
+			right: -204px
+			bottom: -30px
+	.input
+		&__wrap
+			height: 33px
+			font-size: 12px
+			padding: 0 23px
+			padding-top: 4px
+		&:before
+			left: 8px
+		&_persona
+			&:before
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAJCAYAAAAPU20uAAAAiElEQVQoU22OUQ3CUBAEpw6wgAMkMA6QgANwgAVwQBVQB1cJOKASkEA26YMmZb/eu5vb3Y5ZVbUBTsBbvbV5twAG4AzsgL2aN0vg2oZVNaiHFQC8cg30ahx/DvlUVZaTOn07zOUuwDYFgZSNHmrfVdUz5dSxXc1ux8QFGNVYr5RdgHty/wGJ/ABZ7zaRwqG48wAAAABJRU5ErkJggg==')
+		&_phone
+			&:before
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAALCAYAAACzkJeoAAAAo0lEQVQoU02QUQ3CQBBE3yqgDqgEJHQcgIOKQEBRQJ1QB1sBJIADJNTBkr1cyd3PXfJuZmfHANy9j4hjvvOY2UfSZhVOQAdsQA98JU07XCLiXoWdmV0kjebuA3AGlt0WGIE5YVo+gauk/JgZ8n7scK3KQdK7wr6FGSTtAriV1NV2lbS6+6nOT6cCUzEDryaQ0uW/iqRMXAoBprJKU8KhKSEbmn+Rh0uZtqnwQQAAAABJRU5ErkJggg==')
+	
+	.btn
+		&_gradient
+			font-size: 12px
+			height: 33px
+			&:before
+				width: 10px
+				height: 5px
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAATUlEQVQYV4WOQQ2AQAwEZ5wg5RyABM4BVnCAFCThYEmT+x7sZ9PNtF2ZKMkCrOpZiDOw8iRXmdpNctfwsdCA/ndxBw6gTcHRsV5v6vMCyKkXcGKqM5oAAAAASUVORK5CYII=')
+
+	.form
+		&_vertical
+			padding: 20px 28px 20px
+			.form
+				&__security
+					top: 128px
+					right: -125px
+					&:before
+						content: ''
+						width: 14px
+						height: 12px
+						margin-right: 5px
+						position: relative
+						top: -1px
+						background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAABHUlEQVQoU41Sy03DQBB9sza5Jh0AHbgAHMnCOYCFIB1AB3RA3AGpAKgAc7CQwNEaDGdKwCWYq7E90W6I5R+CvezO7Htv3uwO4WeFz8kCAryN1c5MqWF8vxw5TtrMqzPVxChpkZpAAuKS4Z/M7Hib18RHKfeq0vzsqvZi4gvvcHpbVwxXr+dgumkD6Qvgcd8iz4/daaArhlGietitQQwfLAIIjgfIWW4U+6QfhXDVUc5QCUfnhsgMn8LoLQD4dKA/rWwWpiUIsv1YfEf3Uk5G5U7as8Twc7O4HpWmIllNolBWdY+/2d2gJx03S8+1LzfEp3cLovr48ztAD557cPbvAdCCDN+b2YvWAOiqq6SeivqSOWVCnIsymDtO1nS0BuEKbiYWx5EfAAAAAElFTkSuQmCC')
+		&_horizontal
+			padding: 15px 25px
+			.form
+				&__input
+					width: 145px
+					margin-right: 7px
+				&__btn
+					width: 135px
+				&__counter
+					font-size: 9px
+					bottom: -35px
+					margin-right: 68px
+
+					
+		&__title
+			font-size: 18px
+			line-height: 20px
+		&__subtitle
+			font-size: 14px
+			line-height: 16px
+		&__desc
+			font-size: 12px
+			line-height: 14px
+			margin-right: -15px
+		&__counter
+			font-size: 9px
+		&__product
+			img
+				&:nth-of-type(1)
+					width: 149px
+				&:nth-of-type(2)
+					left: 78px
+					top: -26px
+					width: 111px
+				&:nth-of-type(3)
+					left: 132px
+					top: -13px
+					width: 101px
+				&:nth-of-type(4)
+					left: 31px
+					width: 61px
+				&:nth-of-type(5)
+					left: 98px
+					width: 74px
+					bottom: -2px
+				&:nth-of-type(6)
+					left: 69px
+					width: 108px
+
+		&_small-product
+			.form
+				&__product
+					transform: scale(1)
+
+		&__price
+			margin-top: 10px
+			margin-bottom: 20px
+
+	.price
+		&__title
+			font-size: 12px
+		&__current
+			font-size: 14px
+			&_big
+				font-size: 17px
+		&__old
+			font-size: 12px
+
+
+	.list
+		li
+			margin-bottom: 11px
+			&:last-of-type
+				margin-bottom: 0
+			&:before
+				margin-top: 4px
+				margin-left: 3px
+			&:after
+				width: 16px
+				height: 16px
+
+	
+	.advantages
+		padding: 7px 15px 11px
+		&__item
+			&:nth-of-type(1)
+				margin-right: 12px
+				.advantages
+					&__icon
+						width: 27px
+			&:nth-of-type(2)
+				margin-right: 0
+				.advantages
+					&__icon
+						width: 21px
+		&__icon
+			height: 27px
+			margin-right: 7px
+
+		&__title
+			font-size: 12px
+
+	.counter
+		flex-direction: column
+		&__num
+			margin-bottom: 9px
+			i
+				width: 21px
+				height: 31px
+				font-size: 17px
+				margin-right: 4px
+				&:last-of-type
+					margin-right: 0
+		&__text
+			font-size: 12px
+			line-height: 14px
+			text-align: center
+
+
+	.problems
+		padding-top: 75px
+		&:before
+			width: 701px
+			height: 229px
+			top: -60px
+			background-size: 100% 100%
+		&__title
+			margin-bottom: 10px
+		&__desc
+			font-size: 16px
+			margin-bottom: 40px
+
+		&__img
+			width: 107px
+			height: auto
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 18px
+
+		&__text
+			font-size: 12px
+			line-height: 12px
+
+
+	.about
+		padding-top: 20px
+		margin-top: 180px
+		&:before
+			top: -180px
+			height: 180px
+		&:after
+			bottom: -140px
+			height: 140px
+		&__content
+			padding-top: 15px
+			max-width: 330px
+		&__title
+			margin-bottom: 50px
+			br
+				// display: none
+		&__subtitle
+			font-size: 16px
+			line-height: 22px
+		&__list
+			padding-top: 0
+			padding-left: 20px
+			width: calc(100% - 330px)
+		&__item
+			margin-bottom: 20px
+			// &:nth-of-type(even)
+			// 	width: 40%
+			// 	margin-left: auto
+		&__img
+			width: 64px
+			height: 64px
+			padding: 9px
+			margin-bottom: 10px
+		&__text
+			font-size: 12px
+			line-height: 16px
+
+
+	.result
+		padding-top: 80px
+		padding-bottom: 20px
+		&__title
+			font-size: 30px
+			line-height: 33px
+			padding-top: 74px
+		&__images
+			z-index: 2
+			img
+				&:nth-of-type(1)
+
+					width: 200px
+				&:nth-of-type(2)
+					width: 159px
+					left: -30px
+					bottom: -35px
+				&:nth-of-type(3)
+					width: 124px
+					left: -70px
+					bottom: -35px
+				&:nth-of-type(4)
+					width: 109px
+					left: -35px
+					bottom: -33px
+				&:nth-of-type(5)
+					width: 62px
+					left: 55px
+					bottom: -30px
+
+	.components
+		padding-top: 40px
+		padding-bottom: 10px
+		z-index: 1
+		&:before
+			top: -135px
+			height: 135px
+		&:after
+			display: block
+			bottom: -80px
+			height: 80px
+		&__content
+			padding-top: 15px
+		&__title
+			margin-bottom: 25px
+			max-width: 440px
+		&__item
+			margin-bottom: 30px
+			&:nth-of-type(odd)
+				padding-right: 0
+
+
+	.component
+		&__title
+			font-size: 14px
+			margin-bottom: 8px
+		&__text
+			line-height: 18px
+
+
+
+	.history
+		margin-top: 0
+		&:after
+			bottom: -95px
+			height: 95px
+		&__list
+			margin-bottom: 45px
+		&__item
+			margin-bottom: 20px
+		&__title
+			margin-bottom: 22px
+		&__text
+			font-size: 16px
+			line-height: 26px
+			p
+				margin-bottom: 15px
+				&:last-of-type
+					margin-bottom: 0
+		&__img
+			width: 420px
+			margin-right: auto
+		&__form
+			top: 100px
+			margin-top: -100px
+
+	.help
+		padding-top: 150px
+		padding-bottom: 200px
+		&__title
+			margin-bottom: 20px
+		&__img
+			width: 85px
+			height: 85px
+			padding: 10px
+			margin-bottom: 12px
+		&__subtitle
+			margin-bottom: 10px
+		&__text
+			li
+				margin-bottom: 10px
+				&:last-of-type
+					margin-bottom: 0
+
+
+	.choice
+		padding-bottom: 130px
+		&:before
+			top: -185px
+			height: 185px
+		&__title
+			margin-bottom: 30px
+
+
+	.steps
+		&__item
+			&:after
+				width: 23px
+				height: 9px
+				top: 60px
+				right: 65px
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAJCAYAAADZ9rdLAAAAfElEQVQ4T63RsQ3CQBSD4d8bZARGYANCT5FRgEWyQkZhhMyRKlIGMHroTiK9r3ndZ8snAs/2AMzAS9LeSQXsH2F7rQPce0ASr/af/4AY3tqfA2xX2i01T3MOYFP7jGsQf7eyj/QsCzABo6Q1hts+wbVEBLd9AQp/VuM+8RdwFC8qyjUYyQAAAABJRU5ErkJggg==')
+		&__img
+			width: 125px
+			height: 125px
+		&__title
+			margin-bottom: 10px
+		&__text
+			line-height: 16px
+
+	.rec
+		margin-top: -20px
+		&__img
+			margin-bottom: -38px
+		&__title
+			font-size: 14px
+			margin-bottom: 12px
+		&__text
+			font-size: 12px
+			line-height: 16px
+
+
+	.product
+		&:before
+			top: -150px
+			height: 150px
+		&:after
+			bottom: -80px
+			height: 80px
+
+	.original
+		&__text
+			padding-top: 25px
+			max-width: 385px
+		&__desc
+			font-size: 14px
+			line-height: 18px
+		&__images
+			width: calc(100% - 385px)
+			// padding-left: 20px
+			padding-left: 80px
+
+
+	.certificates
+		&__item
+			width: 145px
+			margin-right: 35px
+			&:last-of-type
+				margin-right: 0
+		&__img
+			height: 200px
+		&__title
+			line-height: 18px
+
+	.text
+		&__content
+			width: calc(100% - 290px)
+			padding-right: 15px
+			padding-top: 10px
+		&__title
+			margin-bottom: 20px
+		&__text
+			font-size: 16px
+			line-height: 22px
+			margin-bottom: 35px
+			p
+				margin-bottom: 20px
+				&:last-of-type
+					margin-bottom: 0
+		&__btn
+			// display: none
+		&__persona
+			width: 290px
+
+	.persona
+		&__data
+			width: auto
+			height: 110px
+			margin-left: 21px
+			margin-right: 21px
+			padding: 0 22px
+		&__name
+			font-size: 13px
+		&__position
+			font-size: 12px
+			line-height: 14px
+
+	.reviews
+		&:after
+			height: 175px
+			bottom: -175px
+		&__head
+			margin-bottom: 25px
+		&__title
+			max-width: 440px
+
+	.review
+		padding-top: 20px
+		&__head
+			margin-bottom: 15px
+		&__img
+			width: 45px
+			height: 45px
+		&__data
+			width: calc(100% - 45px)
+		&__title
+			font-size: 12px
+			line-height: 14px
+			margin-bottom: 3px
+		&__text
+			line-height: 18px
+
+	.doctor
+		padding-top: 140px
+		margin-bottom: 170px
+		&__img
+			width: 285px
+			padding-top: 60px
+		&__content
+			width: calc(100% - 285px)
+		&__text
+			line-height: 18px
+			margin-bottom: 25px
+			p
+				margin-bottom: 15px
+				&:last-of-type
+					margin-bottom: 0
+		&__name, &__position
+			font-size: 14px
+
+	.map
+		padding-top: 40px
+		&:before
+			height: 175px
+			top: -175px
+		&:after
+			width: 755px
+			height: 125px
+			bottom: -125px
+			left: 50%
+			transform: translateX(-50%)
+		&__title
+			max-width: 410px
+		&__wrap
+			&:before
+				width: 571px
+				height: 281px
+				background-size: 100% 100%
+				bottom: -20px
+				left: -75px
+
+	.order
+		padding-top: 80px
+		margin-top: 79px
+		z-index: 0
+		&:before
+			display: block
+		&__list
+			width: 600px
+		&__form
+			margin-bottom: 40px
+
 	.hidden-lg
 		display: block
 	
@@ -13,6 +632,66 @@
 @media screen and (max-width: 992px)
 	.case
 		width: 750px
+
+
+	.hello
+		padding-bottom: 32px
+		// &__wrap
+		// 	&:before
+		// 		margin-left: 0px
+		// 		top: -32px
+		// 		transform: scale(.82) translateX(-50%)
+		// &__mid
+		// 	margin-left: 0px
+		// 	top: -42px
+		// 	transform: scale(.82) translateX(-50%)
+		&__form
+			// margin-bottom: 45px
+		&__subdesc
+			right: -106px
+			bottom: -46px
+
+	.problems
+		padding-top: 95px
+
+	.about
+		margin-top: 145px
+		&:before
+			top: -140px
+			height: 140px
+		&__item
+			width: 65%
+			&:nth-of-type(even)
+				width: 35%
+
+	.history
+		&__img
+			width: 50%
+			img
+				width: 320px
+				margin-left: auto
+				margin-right: auto
+
+	.form
+		&__product
+			right: 95px
+
+
+	.original
+		&__images
+			padding-left: 20px
+
+	.certificates
+		&__item
+			margin-right: 20px
+			&:last-of-type
+				margin-right: 0
+
+	.text
+		&__btn
+			display: none
+	.sale
+		display: none
 
 	.hidden-md
 		display: block		
@@ -26,6 +705,581 @@
 	.case
 		width: 100%
 
+	body
+		font-size: 16px
+
+	.header
+		background: none
+		&:after
+			display: none
+
+	.panel
+		position: absolute
+		z-index: 3
+		left: 0
+		right: 0
+		top: 0
+		&__wrap
+			flex-direction: column
+			align-items: center
+		&__logo
+			
+		&__counter
+			display: none
+
+
+	.logo
+		padding-top: 25px
+		&__title
+			font-size: 14px
+		&__desc
+			font-size: 10px
+
+
+
+	.hello
+		padding-bottom: 0
+		&:after
+			display: none
+		&__wrap
+			flex-direction: column
+			&:before
+				display: none
+		&__left
+			order: 2
+			width: 100%
+			padding-top: 105px
+		&__title
+			text-align: center
+			max-width: 300px
+			margin-left: auto
+			margin-right: auto
+		&__desc
+			text-align: center
+			max-width: 100%
+			margin-bottom: 30px
+		&__text
+			max-width: 330px
+			margin-left: auto
+			margin-right: auto
+
+		&__mid
+			z-index: 1
+			order: 1
+			position: relative
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			transform: none
+			margin-top: -15px
+			width: calc(100% + 30px)
+			background-color: #e9eef2
+			margin-left: -15px
+			margin-right: -15px
+			&:before
+				content: ''
+				width: 433px
+				height: 420px
+				left: 50%
+				transform: translateX(-50%)
+				background: url('../../img/rounds.png') no-repeat center top
+				background-size: 100% 100%
+				margin-left: 0
+				top: 67px
+				z-index: 0
+				position: absolute
+			&:after
+				z-index: -2
+				content: ''
+				position: absolute
+				left: 0
+				right: 0
+				bottom: -50px
+				height: 50px 
+				background: url('../../img/header.png') no-repeat center top
+				background-size: 100% 100%
+		&__images
+			width: 400px
+			margin-left: auto
+			margin-right: auto
+		
+		&__subdesc
+			width: 215px
+			height: 55px
+			text-align: center
+			font-size: 14px
+			line-height: 14px
+			padding-left: 0
+			justify-content: center
+			right: 50%
+			margin-right: -220px
+			bottom: -70px
+
+		&__advantages
+			display: none
+
+		&__right
+			order: 3
+			width: 100%
+
+		&__orgs
+			justify-content: center
+			img
+				height: 46px
+
+	.form
+		display: flex
+		flex-wrap: wrap
+		flex-direction: column
+		&__desc
+			font-size: 26px
+			line-height: 26px
+			text-align: center
+			margin-bottom: 25px
+		&__price
+			// display: none
+			text-align: center
+
+		&__counter
+			font-size: 16px
+			position: static
+
+		&_horizontal
+			padding: 30px 30px
+			.form
+				&__input
+					width: 100%
+					margin-bottom: 19px
+				&__btn
+					width: 100%
+				&__counter
+					position: static
+					font-size: 16px
+					text-align: center
+					margin-right: 0
+					margin-top: 27px
+
+		&__product
+			position: relative
+			width: 149px
+			margin-left: auto
+			margin-right: auto
+			right: 40px
+			top: 0
+			margin-top: 55px
+			margin-bottom: -70px
+			order: 5
+
+		&__security
+			display: none
+
+	.form_more-padding .form__product
+		right: 40px
+
+
+	.price
+		justify-content: center
+		&__title
+			font-size: 16px
+			width: 100%
+			margin-right: 0
+			margin-bottom: 5px
+			margin-top: 0
+
+
+	.input
+		&:before
+			left: 17px
+			width: 13px
+		&__wrap
+			font-size: 16px
+			height: 51px
+			padding-left: 35px
+			padding-right: 35px
+		&_persona
+			&:before
+				content: ''
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANCAYAAACdKY9CAAAAwUlEQVQoU52SCw3CQBBEXxUACgAHSGAcgAKQgARQABJAARKmEsABEnBQMk1poIHwmaS5XLqz+2ZzBR3ZXgMLoA/sgY2k672seKy3vQKWwAxI0Q7oSZq/M5TAWlLOWrYrSW3j7oSfDUEKfxCCtAUGkoJY62lCg5DQyXEPHcTXobsbe3VvJ9ieNjgTIF90AZKrlHSokWxn9BEYN2vMz1ODNwLSKIjDZIshXfaSwv5WthP8GMPTnj+Yqr8MeS/Z/Tc63wDPiVU8g8jKTwAAAABJRU5ErkJggg==')
+		&_phone
+			&:before
+				content: ''
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAYAAAAvf+5AAAAAvUlEQVQoU5WSgQ2CMBBFHxPgCGygI/g3YBTdwA10BJ1ANjhGYATcgA00nwCpSAI2adpeX3//XZsBRMQJuHo+a2dJN8eyAbwDzRhMDheSLDKBLVBKakbFiDgAlaSiByOiBJ4L144hSaoN/qgtqRp8S/JoL50k+52a94E2BTsg96EF8JWCFXB0nyXV35iCzrIGLsDec0mP0doEDrVzBewx93rw/q2YZLoDrH7wA6SKm8uzreCDt/Un/PdTrH6zD3FQlkqtCb8LAAAAAElFTkSuQmCC')
+				
+	.btn
+		&_gradient
+			font-size: 16px
+			height: 51px
+		&_arrow
+			span
+				&:before
+					display: none !important
+
+	.list
+		li
+			font-size: 16px
+			&:before, &:after
+				top: -1px
+
+	.problems
+		padding-top: 70px
+		&__desc
+			font-size: 16px
+		&__list
+			justify-content: center
+			margin-bottom: -35px
+		&__item
+			width: 50%
+			margin-bottom: 30px
+		&__text
+			font-size: 16px
+			line-height: 21px
+
+	.about
+		margin-top: 115px
+		&:before, &:after
+			background-size: 767px auto
+		&:after
+			height: 170px
+		&__content, &__list
+			max-width: 100%
+			width: 100%
+		&__title
+			text-align: center
+			max-width: 360px
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 25px
+		&__subtitle
+			text-align: center
+			margin-bottom: 35px
+
+		&__list
+			padding-left: 0
+			margin-left: -5px
+			margin-right: -5px
+			margin-bottom: -40px
+
+		&__item
+			padding-left: 5px
+			padding-right: 5px
+			width: 50% !important
+			margin-bottom: 40px
+
+		&__img
+			margin-left: auto
+			margin-right: auto
+		&__text
+			text-align: center
+			max-width: 210px
+			margin-left: auto
+			margin-right: auto
+			font-size: 16px
+			line-height: 21px
+			br
+				display: none
+
+	.result
+		padding-bottom: 115px
+		&__title
+			text-align: center
+			margin-right: 0
+			width: 100%
+			padding-top: 25px
+			margin-bottom: 20px
+		&__images
+			margin-left: 50%
+			transform: translateX(-50%)
+			width: 200px
+			img
+				&:nth-of-type(1)
+					max-width: none !important
+					max-height: none !important
+
+
+
+	.components
+		&:before
+			top: -100px
+			height: 100px
+			background-size: 767px auto
+		&:after
+			bottom: -65px
+			height: 75px
+			background-size: 767px auto
+		&__title
+			text-align: center
+			margin-left: auto
+			margin-right: auto
+		&__item
+			width: 100%
+
+
+	.component
+		position: relative
+		&__img
+			width: 150px
+			height: 130px
+		&__title
+			position: absolute
+			display: flex
+			flex-wrap: wrap
+			align-items: center
+			height: 130px
+			top: 0
+			left: 145px
+			font-size: 20px
+		&__content
+			width: 100%
+			padding-top: 10px
+
+
+	.history
+		padding-top: 65px
+		&__item
+			
+		&__content
+			order: 2
+		&__img
+			order: 1
+
+		&__content, &__img
+			width: 100%
+
+		&__title
+			text-align: center
+			
+		&__img
+			margin-bottom: 35px
+
+
+
+	.help
+		padding-top: 200px
+		padding-bottom: 150px
+		&__title
+			text-align: center
+			max-width: 400px
+			margin-left: auto
+			margin-right: auto
+
+		&__item
+			width: 100%
+			position: relative
+			margin-bottom: 35px
+			&:last-of-type
+				margin-bottom: 0
+
+		&__img
+			width: 82px
+			height: 82px
+		&__subtitle
+			height: 82px
+			display: flex
+			flex-wrap: wrap
+			align-items: center
+			font-size: 16px
+			line-height: 24px
+			width: calc(100% - 82px)
+			position: absolute
+			top: 0
+			left: 82px
+			padding-left: 14px
+		&__text
+			width: 100%
+			max-width: 100%
+			li
+				margin-bottom: 7px
+				width: 100%
+				&:last-of-type
+					margin-bottom: 0
+			br
+				display: none
+
+
+	.choice
+		&:before
+			top: -155px
+			height: 155px
+			background-size: 767px auto
+		&__title
+			text-align: center
+
+	.steps, .rec
+		&__item
+			width: 100%
+			display: flex
+			flex-wrap: wrap
+			margin-bottom: 30px
+			&:after
+				display: none
+
+		&__title
+			font-size: 14px
+			margin-bottom: 5px
+
+		&__text
+			font-size: 16px
+			line-height: 18px
+
+		&__img
+			width: 82px
+			height: 82px
+			margin-bottom: 0
+			margin-left: 0
+	
+		&__content
+			padding-top: 3px
+			padding-left: 18px
+			width: calc(100% - 82px)
+			
+	.rec
+		margin-top: 0
+		
+
+	.product
+		&:before
+			top: -80px
+			height: 80px
+			background-size: 767px auto
+
+		&:after
+			bottom: -60px
+			height: 68px
+			background-size: 767px auto
+
+
+	.original
+
+		&__text
+			order: 2
+			width: 100%
+			max-width: 100%
+			text-align: center
+			padding-top: 40px
+		&__images
+			order: 1
+			width: 100%
+			padding-left: 0
+			margin-top: -120px
+		&__title
+			margin-bottom: 15px
+		&__desc
+			font-size: 15px
+
+	.certificates
+		&__list
+			justify-content: center
+		&__img
+			margin-bottom: 15px
+
+	.text
+		&__content
+			width: 100%
+			margin-bottom: 40px
+
+		&__text
+			margin-bottom: 0
+		&__persona
+			margin-right: auto
+			width: 260px
+
+	.persona
+		&__data
+			margin-top: -50px
+			z-index: 1
+			position: relative
+
+
+	.reviews
+		padding-bottom: 30px
+		&:after
+			bottom: -140px
+			height: 140px
+			background-size: 767px auto
+
+		&__head
+			margin-bottom: 10px
+		&__title
+			text-align: center
+			max-width: 100%
+		&__control
+			margin-right: auto
+			margin-top: 25px
+
+	.review
+		padding-top: 0
+		padding-right: 0
+		display: flex !important
+		flex-wrap: wrap
+		&__head
+			order: 2
+			margin-bottom: 0
+			justify-content: center
+			margin-top: 6px
+		&__body
+			order: 1
+
+		&__desc
+			font-size: 12px
+
+
+
+	.doctor
+		&__img
+			width: 100%
+			padding-top: 0
+			margin-bottom: 25px
+			img
+				margin-left: auto
+				margin-right: auto
+		&__content
+			width: 100%
+			text-align: center
+			padding-left: 0
+
+
+	.map
+		padding-bottom: 25px
+		&:before
+			bottom: -140px
+			height: 140px
+			background-size: 767px auto
+		&:after
+			bottom: -100px
+			height: 122px
+			background-size: 420px auto
+		&__title
+			text-align: center
+			margin-bottom: 25px
+		&__wrap
+			margin-top: 0
+			&:before
+				display: none
+		
+
+
+	.order
+		padding-top: 40px
+		padding-bottom: 50px
+		&:before
+			bottom: -115px
+			height: 115px
+			background-size: 767px auto
+		&__title
+			text-align: center
+		&__desc
+			text-align: center
+
+		&__list
+			width: 330px
+			margin-left: auto
+			margin-right: auto
+			margin-top: 80px
+			li
+				width: 100%
+				padding-right: 0
+
 	.hidden-sm
 		display: block
 	
@@ -33,3 +1287,30 @@
 		display: none
 	
 
+@media screen and (max-width: 480px)
+	.hello
+		&__subdesc
+			right: 50%
+			transform: translateX(50%)
+			margin-right: 0
+			bottom: -120px
+		&__left
+			padding-top: 150px
+		&__mid
+			height: 465px
+		&__images
+			position: absolute
+			left: 50%
+			transform: translateX(-50%)
+
+
+
+	.form
+		&__desc
+			font-size: 17px
+			line-height: 22px
+			margin-right: 0
+
+
+	.order__list
+		width: 100%
