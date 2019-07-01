@@ -1141,7 +1141,8 @@
       text-align: center;
       margin-bottom: 25px; }
     .map__wrap {
-      margin-top: 0; }
+      margin-top: 0;
+      display: block; }
       .map__wrap:before {
         display: none; }
   .order {
