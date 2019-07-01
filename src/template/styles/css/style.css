@@ -1,5 +1,6 @@
 /* Including styles files */
 /* Including fonts */
+@import url(../../libs/fancybox/dist/jquery.fancybox.css);
 @import url(../../libs/slick-carousel/slick/slick.css);
 @font-face {
   font-family: 'Glober';
@@ -1529,6 +1530,110 @@ input, .btn, .slick-slide, textarea {
     .order__list li {
       width: 50%;
       padding-right: 30px; }
+
+.share {
+  display: none; }
+
+.popup {
+  font-family: "Glober", sans-serif;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  display: none; }
+  .popup_large {
+    width: 800px;
+    padding: 35px; }
+  .popup_small {
+    width: 450px;
+    padding: 50px; }
+
+.buy__content {
+  width: 420px; }
+
+.buy__title {
+  margin-bottom: 10px; }
+
+.buy__desc {
+  margin-bottom: 70px; }
+
+.buy__form {
+  width: -webkit-calc(100% - 420px);
+  width: calc(100% - 420px); }
+  .buy__form-title {
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 35px; }
+  .buy__form-wrap {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    padding: 0; }
+
+.buy__product {
+  position: relative;
+  margin-left: -30px;
+  margin-top: -20px; }
+
+.buy__price {
+  position: absolute;
+  top: 60px;
+  left: 300px; }
+  .buy__price-new {
+    font-size: 30px;
+    font-weight: 700;
+    color: #AC6E59;
+    margin-bottom: 8px; }
+  .buy__price-old {
+    font-size: 16px;
+    color: #707070;
+    text-decoration: line-through; }
+
+.thanks__img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px; }
+
+.thanks__title {
+  margin-bottom: 5px;
+  text-align: center; }
+
+.thanks__text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.thanks__btn {
+  max-width: 220px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.popup-product {
+  position: relative;
+  -webkit-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+          transform: scale(0.85); }
+  .popup-product img {
+    position: absolute;
+    max-height: none !important; }
+    .popup-product img:nth-of-type(1) {
+      width: 232px;
+      position: static; }
+    .popup-product img:nth-of-type(2) {
+      width: 173px;
+      left: 120px;
+      top: -40px; }
+    .popup-product img:nth-of-type(3) {
+      width: 95px;
+      left: 47px;
+      bottom: -3px; }
+    .popup-product img:nth-of-type(4) {
+      width: 115px;
+      left: 150px;
+      bottom: -3px; }
+    .popup-product img:nth-of-type(5) {
+      width: 168px;
+      left: 104px;
+      bottom: -7px; }
 
 .slick-prev {
   left: 28px;

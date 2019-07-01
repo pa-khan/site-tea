@@ -38,4 +38,19 @@ $(document).ready(function($) {
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"}, 1500);
     return false;
 	});
+
+
+	$('.buy__form .form__btn').click(function(event) {
+
+		$.fancybox.close();
+		$.fancybox.open({src  : '#popup-thanks',type : 'inline'});
+		
+	});
+
+	var shareBlock = $('.share'),
+			shareClose = $('.share__close');
+
+	shareClose.click(function(event) {
+		shareBlock.slideUp(300);
+	});
 });

@@ -1206,6 +1206,7 @@
 		&__control
 			margin-right: auto
 			margin-top: 25px
+			margin-bottom: 25px
 
 	.review
 		padding-top: 0
@@ -1262,7 +1263,7 @@
 
 	.order
 		padding-top: 40px
-		padding-bottom: 50px
+		padding-bottom: 95px
 		&:before
 			bottom: -115px
 			height: 115px
@@ -1280,6 +1281,86 @@
 			li
 				width: 100%
 				padding-right: 0
+
+	.share
+		z-index: 10
+		display: flex
+		align-items: center
+		position: fixed
+		bottom: 0
+		left: 0
+		right: 0
+		height: 68px
+		color: #fff
+		padding: 0 15px
+		background: rgb(226,191,153)
+		background: -moz-linear-gradient(left,  rgba(226,191,153,1) 0%, rgba(205,138,115,1) 100%)
+		background: -webkit-linear-gradient(left,  rgba(226,191,153,1) 0%,rgba(205,138,115,1) 100%)
+		background: linear-gradient(to right,  rgba(226,191,153,1) 0%,rgba(205,138,115,1) 100%)
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2bf99', endColorstr='#cd8a73',GradientType=1 )
+		&__text
+			width: 120px
+			padding-top: 2px
+		&__title
+			font-size: 16px
+			font-weight: 700
+			margin-bottom: 1px
+		&__desc
+			font-size: 16px
+		&__btn
+			font-size: 15px
+			font-weight: 700
+			border: 1px solid #F4D0AA
+			transition: .3s
+			color: #fff
+			border-radius: 4px
+			height: 37px
+			padding: 3px 10px 0
+			width: calc(100% - 120px - 28px)
+			padding-left: 0
+			padding-right: 0
+			&:hover
+				color: #000
+				background-color: #fff
+
+		&__close
+			position: relative
+			cursor: pointer
+			margin-left: auto
+			&:before, &:after
+				content: ''
+				width: 20px
+				height: 2px
+				background-color: #fff
+				display: block
+				position: relative
+			&:before
+				top: 1px
+				transform: rotate(45deg)
+			&:after
+				top: -1px
+				transform: rotate(-45deg)
+			
+
+	.popup
+		padding: 20px
+
+	.thanks__img
+		width: 200px
+		margin-left: auto
+		margin-right: auto
+		left: -35px
+
+	.buy
+		&__content
+			display: none
+		&__form
+			width: 100%
+			&-title
+				font-size: 20px
+				margin-bottom: 15px
+			&-wrap
+				padding: 0
 
 	.hidden-sm
 		display: block

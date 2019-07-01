@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Импеаторский сбор</title>
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-	<link rel="stylesheet" href="template/styles/css/style.css?ver=1" />
-	<link rel="stylesheet" href="template/styles/css/responsive.css?ver=1" />
-	<script src="template/scripts/libs.js?ver=1"></script>
-	<script src="template/scripts/common.js?ver=1"></script>
+	<link rel="stylesheet" href="template/styles/css/style.css?ver=5" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css?ver=5" />
+	<script src="template/scripts/libs.js?ver=5"></script>
+	<script src="template/scripts/common.js?ver=5"></script>
 	<!--[if lt IE 9]>
 	<script>
 		document.createElement('header');
@@ -384,7 +384,7 @@
 							<p>«Во время одной из гастролей я настолько уставал, что никак не мог выспаться. Конечно, это влияло в первую очередь на голос. Я боялся, что в какой-то момент начну фальшивить на сцене (а пел я без фонограммы), и от этого нервничал еще больше и спал еще меньше.</p>
 							<p>К счастью, мой менеджер раздобыл чайный коктейль «Императорский сбор», и я стал заваривать его каждый вечер. Эффект увидел уже на следующий день – когда проснулся утром отдохнувший, нормальный! Будто выспался у себя дома, а не в отеле. После этого остальное турне прошло как по маслу, голос не подвел, и зрители остались довольны. В каждом городе собирал овации».</p>
 						</div>
-						<a href="#order" class="text__btn btn btn_gradient btn_arrow btn_now"><span>Заказать сейчас!</span></a>
+						<a data-fancybox data-src="#popup-order" href="javascript:;" class="text__btn btn btn_gradient btn_arrow btn_now"><span>Заказать сейчас!</span></a>
 					</div>
 					<div class="text__persona persona">
 						<div class="persona__img"><img src="upload/baskov.png" alt=""></div>
@@ -400,7 +400,7 @@
 			<div class="case">
 				<div class="reviews__head row i-mid">
 					<div class="reviews__title subtitle">Чайный коктейль «Императорский сбор» уже помог этим людям:</div>
-					<div class="reviews__control hidden-xs">
+					<div class="reviews__control">
 						<div class="reviews__arrows"></div>
 						<div class="reviews__count">
 							<div class="reviews__count-current">1</div>
@@ -457,13 +457,6 @@
 							<div class="review__body">
 								<div class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed similique, ad adipisci, doloremque nisi rerum quo sit natus hic id officiis molestiae cum, praesentium, esse corrupti dolore recusandae laudantium! Minima ratione necessitatibus reiciendis excepturi quibusdam quod est alias, consequuntur distinctio. Mollitia totam soluta similique doloribus inventore quisquam, expedita labore omnis dignissimos fugiat culpa asperiores et corrupti eius animi consequuntur accusantium, obcaecati adipisci facere! Voluptates possimus, ipsum ratione accusantium saepe sint magni debitis enim in explicabo, libero mollitia vero repellendus, illum ducimus quidem cumque blanditiis. Odio quibusdam, ad sed dignissimos itaque accusamus exercitationem eligendi minus esse, expedita qui dicta perferendis impedit molestiae placeat aspernatur obcaecati, debitis voluptas. Aliquam ea eligendi, ab similique officiis assumenda, est, ipsa voluptas veritatis mollitia facilis eveniet. Magnam totam incidunt placeat optio id saepe, distinctio sunt cupiditate eum aspernatur esse facere quos repellendus sapiente voluptate assumenda fugit aperiam nulla ipsa. Eius quae necessitatibus incidunt mollitia, dignissimos voluptatibus!</div>
 							</div>
-						</div>
-					</div>
-					<div class="reviews__control hidden-lg hidden-md hidden-sm">
-						<div class="reviews__arrows"></div>
-						<div class="reviews__count">
-							<div class="reviews__count-current">1</div>
-							<div class="reviews__count-total"></div>
 						</div>
 					</div>
 				</div>
@@ -546,7 +539,67 @@
 				</div>
 			</div>
 		</div>
+		<div class="share">
+			<div class="share__text">
+				<div class="share__title">Акция! 99₽</div>
+				<div class="share__desc">осталось 31 шт.</div>
+			</div>
+			<a data-fancybox data-src="#popup-order" href="javascript:;" class="share__btn btn"><span>Заказать сейчас!</span></a>
+			<div class="share__close close"></div>
+		</div>
 	</footer>
+</div>
+
+<div class="popup popup_large" id="popup-order">
+	<div class="popup__buy buy row">
+		<div class="buy__content">
+			<div class="buy__title subtitle">Натуральный чайный сбор «Шоколадная Космея»!</div>
+			<div class="buy__desc">Избавьтесь от гипертонии за 20 дней! </div>
+			<div class="buy__product">
+				<div class="buy__product-wrap popup-product">
+					<img src="upload/tea.png" alt="" class="hello__img">
+					<img src="upload/product.png" alt="" class="hello__img">
+					<img src="upload/leaf-1.png" alt="" class="hello__img">
+					<img src="upload/leaf-2.png" alt="" class="hello__img">
+					<img src="upload/flower.png" alt="" class="hello__img">
+				</div>
+				<div class="buy__price">
+					<div class="buy__price-new">99 руб</div>
+					<div class="buy__price-old">2800 руб</div>
+				</div>
+			</div>
+		</div>
+		<div class="buy__form">
+			<div class="buy__form-title desc">Заказать прямо сейчас!</div>
+			<div class="buy__form-wrap form form_vertical">
+				<div class="form__wrap">
+					<div class="form__input input input_normal input_persona">
+						<input type="text" class="input__wrap" placeholder="Ваше имя">
+					</div>
+					<div class="form__input input input_normal input_phone">
+						<input type="tel" class="input__wrap" placeholder="Телефон">
+					</div>
+					<button class="form__btn btn btn_gradient btn_arrow"><span>Заказать сейчас!</span></button>
+				</div>
+				<div class="form__counter">ОСТАЛАСЬ 31 УПАКОВКА</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup_small" id="popup-thanks">
+	<div class="thanks">
+		<div class="thanks__img popup-product">
+			<img src="upload/tea.png" alt="" class="hello__img">
+			<img src="upload/product.png" alt="" class="hello__img">
+			<img src="upload/leaf-1.png" alt="" class="hello__img">
+			<img src="upload/leaf-2.png" alt="" class="hello__img">
+			<img src="upload/flower.png" alt="" class="hello__img">
+		</div>
+		<div class="thanks__title subtitle">Ваша заявка принята</div>
+		<div class="thanks__text">Скоро с вами свяжеться оператор</div>
+		<div class="thanks__btn btn btn_arrow btn_gradient"><span>Заказать сейчас!</span></div>
+	</div>
 </div>
 </body>
 </html>

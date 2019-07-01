@@ -2,7 +2,7 @@
 @import sprite.sass
 @import fonts.sass
 @import grid.sass
-// @import '../../libs/fancybox/dist/jquery.fancybox.css'
+@import '../../libs/fancybox/dist/jquery.fancybox.css'
 @import ../../libs/slick-carousel/slick/slick.css
 
 
@@ -1263,6 +1263,114 @@ input, .btn, .slick-slide, textarea
 
 
 
+.share
+	display: none
+
+
+
+
+.popup
+	font-family: $font-family-1
+	background-color: #fff
+	border-radius: 6px
+	display: none
+	&_large
+		width: 800px
+		padding: 35px
+	&_small
+		width: 450px
+		padding: 50px
+
+
+.buy
+	&__content
+		width: 420px
+	&__title
+		margin-bottom: 10px
+	&__desc
+		margin-bottom: 70px
+	&__form
+		width: calc(100% - 420px)
+		&-title
+			text-align: center
+			// margin-bottom: 25px
+			padding-top: 5px
+			margin-bottom: 35px
+		&-wrap
+			box-shadow: none
+			padding: 0
+			.form
+				&__input
+					// margin-bottom: 35px
+				&__btn
+					// margin-bottom: 35px
+
+	&__product
+		position: relative
+		margin-left: -30px
+		margin-top: -20px
+
+	&__price
+		position: absolute
+		top: 60px
+		left: 300px
+		&-new
+			font-size: 30px
+			font-weight: 700
+			color: #AC6E59
+			margin-bottom: 8px
+		&-old
+			font-size: 16px
+			color: #707070
+			text-decoration: line-through
+
+
+
+
+.thanks
+	&__img
+		margin-top: 20px
+		margin-bottom: 20px
+		margin-left: 20px
+	&__title
+		margin-bottom: 5px
+		text-align: center
+	&__text
+		font-size: 18px
+		margin-bottom: 20px
+		text-align: center
+	&__btn
+		max-width: 220px
+		width: 100%
+		margin-left: auto
+		margin-right: auto
+		
+
+.popup-product
+	position: relative
+	transform: scale(.85)
+	img
+		position: absolute
+		max-height: none !important
+		&:nth-of-type(1)
+			width: 232px
+			position: static
+		&:nth-of-type(2)
+			width: 173px
+			left: 120px
+			top: -40px
+		&:nth-of-type(3)
+			width: 95px
+			left: 47px
+			bottom: -3px
+		&:nth-of-type(4)
+			width: 115px
+			left: 150px
+			bottom: -3px
+		&:nth-of-type(5)
+			width: 168px
+			left: 104px
+			bottom: -7px
 
 .slick-prev
 	left: 28px
